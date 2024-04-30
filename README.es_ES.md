@@ -1,29 +1,29 @@
-# 3X-UI
+# y-x-ui-2.3
 
 [English](/README.md) | [Chinese](/README.zh.md) | [Español](/README.es_ES.md)
 
-<p align="center"><a href="#"><img src="./media/3X-UI.png" alt="Image"></a></p>
+<p align="center"><a href="#"><img src="./media/y-x-ui-2.3.png" alt="Image"></a></p>
 
 **Un Panel Web Avanzado • Construido sobre Xray Core**
 
-[![](https://img.shields.io/github/v/release/yasinabbasiiii/3x-ui.svg)](https://github.com/yasinabbasiiii/3x-ui/releases)
-[![](https://img.shields.io/github/actions/workflow/status/yasinabbasiiii/3x-ui/release.yml.svg)](#)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/yasinabbasiiii/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/yasinabbasiiii/3x-ui/total.svg)](#)
+[![](https://img.shields.io/github/v/release/yasinabbasiiii/y-x-ui-2.3.svg)](https://github.com/yasinabbasiiii/y-x-ui-2.3/releases)
+[![](https://img.shields.io/github/actions/workflow/status/yasinabbasiiii/y-x-ui-2.3/release.yml.svg)](#)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/yasinabbasiiii/y-x-ui-2.3.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/yasinabbasiiii/y-x-ui-2.3/total.svg)](#)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Descargo de responsabilidad:** Este proyecto es solo para aprendizaje personal y comunicación, por favor no lo uses con fines ilegales, por favor no lo uses en un entorno de producción
 
 **Si este proyecto te es útil, podrías considerar darle una**:star2:
 
-<p align="left"><a href="#"><img width="125" src="https://github.com/yasinabbasiiii/3x-ui/assets/115543613/7aa895dd-048a-42e7-989b-afd41a74e2e1" alt="Image"></a></p>
+<p align="left"><a href="#"><img width="125" src="https://github.com/yasinabbasiiii/y-x-ui-2.3/assets/115543613/7aa895dd-048a-42e7-989b-afd41a74e2e1" alt="Image"></a></p>
 
 - USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
 
 ## Instalar y Actualizar
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/yasinabbasiiii/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/yasinabbasiiii/y-x-ui-2.3/master/install.sh)
 ```
 
 ## Instalar una Versión Personalizada
@@ -31,7 +31,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/yasinabbasiiii/3x-ui/master/in
 Para instalar la versión deseada, agrega la versión al final del comando de instalación. Por ejemplo, ver `v2.2.8`:
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/yasinabbasiiii/3x-ui/master/install.sh) v2.2.8
+bash <(curl -Ls https://raw.githubusercontent.com/yasinabbasiiii/y-x-ui-2.3/master/install.sh) v2.2.8
 ```
 
 ## Certificado SSL
@@ -83,7 +83,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/yasinabbasiiii/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/yasinabbasiiii/y-x-ui-2.3/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. Una vez que se haya descargado el paquete comprimido, ejecuta los siguientes comandos para instalar o actualizar x-ui:
@@ -130,8 +130,8 @@ systemctl restart x-ui
 2. Clona el Repositorio del Proyecto:
 
    ```sh
-   git clone https://github.com/yasinabbasiiii/3x-ui.git
-   cd 3x-ui
+   git clone https://github.com/yasinabbasiiii/y-x-ui-2.3.git
+   cd y-x-ui-2.3
    ```
 
 3. Inicia el Servicio
@@ -149,26 +149,26 @@ systemctl restart x-ui
       -v $PWD/cert/:/root/cert/ \
       --network=host \
       --restart=unless-stopped \
-      --name 3x-ui \
-      ghcr.io/yasinabbasiiii/3x-ui:latest
+      --name y-x-ui-2.3 \
+      ghcr.io/yasinabbasiiii/y-x-ui-2.3:latest
    ```
 
 actualizar a la última versión
 
    ```sh
-    cd 3x-ui
+    cd y-x-ui-2.3
     docker compose down
-    docker compose pull 3x-ui
+    docker compose pull y-x-ui-2.3
     docker compose up -d
    ```
 
-eliminar 3x-ui de docker
+eliminar y-x-ui-2.3 de docker
 
    ```sh
-    docker stop 3x-ui
-    docker rm 3x-ui
+    docker stop y-x-ui-2.3
+    docker rm y-x-ui-2.3
     cd --
-    rm -r 3x-ui
+    rm -r y-x-ui-2.3
    ```
 
 </details>
@@ -471,4 +471,4 @@ XUI_BIN_FOLDER="bin" XUI_DB_FOLDER="/etc/x-ui" go build main.go
 
 ## Estrellas a lo largo del tiempo
 
-[![Stargazers over time](https://starchart.cc/yasinabbasiiii/3x-ui.svg)](https://starchart.cc/yasinabbasiiii/3x-ui)
+[![Stargazers over time](https://starchart.cc/yasinabbasiiii/y-x-ui-2.3.svg)](https://starchart.cc/yasinabbasiiii/y-x-ui-2.3)

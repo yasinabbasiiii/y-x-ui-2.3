@@ -1,4 +1,4 @@
-name: Release 3X-UI
+name: Release y-x-ui-2.3
 
 on:
   push:

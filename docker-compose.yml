@@ -2,9 +2,9 @@
 version: "3"
 
 services:
-  3x-ui:
-    image: ghcr.io/yasinabbasiiii/3x-ui:latest
-    container_name: 3x-ui
+  y-x-ui-2.3:
+    image: ghcr.io/yasinabbasiiii/y-x-ui-2.3:latest
+    container_name: y-x-ui-2.3
     hostname: yourhostname
     volumes:
       - $PWD/db/:/etc/x-ui/
